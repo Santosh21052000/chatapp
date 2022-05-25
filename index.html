@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatApp</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <!-- dom load hone ke baad script run hoga .pahle background mein script  download hota rahega -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+        <img class="logo" src="download.png" alt="" />
+        <h1>(: Welcome To The Chatting World :)</h1>
+    </nav>
+    <div class="container">
+      <!-- <div class="message right">Harry:how are you</div> -->
+      <!-- <div class="message left">Rohan:i am fine.About you</div> -->
+    </div>
+    <div class="send">
+      <form action="#" id="send-container">
+        <input type="text" name="messageinput" id="messageinput" />
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
